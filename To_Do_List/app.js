@@ -18,8 +18,6 @@ btn.addEventListener("click", function(){
     button.style.marginLeft="5px";
     button.style.marginBottom="5px";
 
-
-    console.dir(item);
     button.classList.add("delete");
 
     ul.appendChild(item);
